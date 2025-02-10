@@ -3,32 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Will you be my Valentine debil?</title>
-    <style>
-        .hidden {
-            display: none; /* Hide the content initially */
-        }
-        .message {
-            margin-top: 20px;
-            font-size: 1.5em;
-            color: #e91e63;
-        }
-    </style>
+    <title>Will You Be My Valentine?</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <button id="revealButton">Click Me!</button>
-        <div id="hiddenContent" class="hidden message">
-            Thank you for everything, I love you so much! ❤️
+        <h1>Will You Be My Valentine debil:D?</h1>
+        <div class="images">
+            <img src="cat-heart.gif" alt="Animáció" class="gif-image">
+            <img src="heart2.png" alt="Heart 2" class="heart-image">
         </div>
+        <div class="buttons">
+            <button id="yesButton">Yes</button>
+            <button id="noButton">No</button>
+        </div>
+        <div id="heartMessage" class="hidden">
+            <div class="heart">❤️</div>
+            <p>Thank you for everything, I love you so much!</p>
+        </div>
+        <div id="fireworks"></div>
     </div>
-
-    <script>
-        // JavaScript to reveal the hidden content
-        document.getElementById('revealButton').addEventListener('click', function() {
-            // Remove the 'hidden' class to show the content
-            document.getElementById('hiddenContent').classList.remove('hidden');
-        });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
