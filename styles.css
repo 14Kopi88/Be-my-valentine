@@ -125,4 +125,8 @@ p {
         transform: scale(3);
         opacity: 0;
     }
+}.gif-image {
+    width: 200px; /* Beállíthatod a méretet */
+    height: auto;
+    margin: 20px 0; /* Térköz a GIF körül */
 }
